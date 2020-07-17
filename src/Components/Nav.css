@@ -1,0 +1,28 @@
+.toolbar_menu {
+    background: rgb(236, 75, 75);
+    z-index: 2;
+    min-width: 100%vh;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #555;
+    width: 40%;
+    display: inline-block;
+}
+.list li a {
+    padding: 0.75rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.list li a:hover {
+    color: var(--primary-color) !important;
+  }

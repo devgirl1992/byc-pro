@@ -1,22 +1,17 @@
 import React from 'react';
+import Logo from "./Components/Logo";
+import Navbar from "./Components/Navbar";
+import Obj from "./Components/Obj";
+import Footer from "./Components/Footer";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        header
-      </header>
-      <navbar>
-        <ul>
-          <li><a href="">Furnishing</a></li>
-          <li><a href="">Fender</a></li>
-          <li><a href="">Frame Color</a></li>
-          <li><a href="">Saddle</a></li>
-          <li><a href="">Handles</a></li>
-        </ul>
-      </navbar>
-      <h1>react app</h1>
+         <Logo />  
+         <Navbar />   
+    <Obj />
+    <Footer />
     </div>
   );
 }
